@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    padding: 0%;
+    margin: 0%;
+    color: white;
+    background-color: black;
+    font-family: 'Exo', sans-serif;
+    
+    
+}
+.ncard {
+    display: grid;
+    grid-template-columns: 600px 1fr 1fr;
+    grid-column-gap: 10px;
+    width: 50%;
+    margin-top: 10px;
+}
+#text {
+    width: 50%;
+    height: 5vh;
+    background-color: black;
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    color: white;
+    outline: black;
+    text-transform: uppercase;
+    font-family: 'Exo', sans-serif;
+}
+.done {
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}
+.delete {
+    background-color: black;
+    border: 1px solid white;
+    color: white; 
+}
+.ncard p {
+    font-size: 20px;
+    text-align: left;
+    text-transform: uppercase;
+}
+.main {
+    margin-top: 5%;
+}
+h1 {
+    text-align: left;
+    margin-left: 25%;
+}
+#to-do {
+    font-family: 'Exo', sans-serif;
+    font-size: 60px;
+}
